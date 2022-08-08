@@ -12,7 +12,7 @@ services:
       #   HARVESTER_ENDPOINT: https://harvester:5000/<domain>/token
     ports:
       # Map host (8191) to container (8191)
-      - 8191:8191
+      - 3000:3000
 
   # This can be expanded upon to automatically start a captcha harvester and connect them on the same network
   # However the harvester isnt dockerised yet.
