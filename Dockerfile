@@ -27,6 +27,6 @@ RUN npm install && \
     rm -rf src tsconfig.json && \
     npm prune --production
 
-EXPOSE 3000
+EXPOSE 3001
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 CMD ["npm", "start"]
